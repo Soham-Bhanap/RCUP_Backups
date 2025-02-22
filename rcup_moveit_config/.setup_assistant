@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: kinova_tester
+    relative_path: urdf/gen3_lite_gen3_lite_2f.xacro
+  srdf:
+    relative_path: config/gen3_lite_gen3_lite_2f.srdf
+  package_settings:
+    author_name: soham
+    author_email: sohambhanap.psn@gmail.com
+    generated_timestamp: 1738000180
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

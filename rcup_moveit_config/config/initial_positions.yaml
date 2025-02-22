@@ -1,0 +1,10 @@
+# Default initial positions for gen3_lite_gen3_lite_2f's ros2_control fake system
+
+initial_positions:
+  kinova_joint_1: 0
+  kinova_joint_2: 0
+  kinova_joint_3: 0
+  kinova_joint_4: 0
+  kinova_joint_5: 0
+  kinova_joint_6: 0
+  kinova_right_finger_bottom_joint: 0
